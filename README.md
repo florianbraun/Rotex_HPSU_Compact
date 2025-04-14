@@ -3,7 +3,7 @@ based on https://github.com/Trunks1982/Daikin-Rotex-HPSU-CAN-Seriell
 and https://github.com/juanferrla/rotex_solaris
 
 ### Differences
-The rotex-hpsu.yaml contains only the needed code for the CAN-interface between a Rotex/Dakin HPSU compact 516 and ESPHome / Home Assistant.<p>
+The <a href="https://github.com/florianbraun/Rotex_HPSU_Compact/blob/main/rotex_hpsu_solaris_r3.yaml">rotex-hpsu.yaml</a> contains only the needed code for the CAN-interface between a Rotex/Dakin HPSU compact 516 and ESPHome / Home Assistant.<p>
 The rotex_hpsu_solaris_r3.yaml contains additionally the UART-interface for the Solaris R3 information. This runs ONLY on an ESP32-S3 device as it contains the CAN-interface too.<p>
 Please do not use both files at the same time in the same Home Assistant instance. It will leads to issues with the readings.
 
